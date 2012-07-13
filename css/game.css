@@ -1,0 +1,152 @@
+#arena
+{
+	position: absolute;
+	height: 593px;
+	width: 874px;
+	left: 110px;
+	top: 0;
+	padding: 20px;
+	background: #000;
+	background: rgba(0, 0, 0, 0.9);
+	color: #888;
+}
+
+/*#img
+{
+	position:absolute;
+	right:0%;
+	top:0%;
+	height:400px;
+	width:400px;
+	border: solid thin white;
+}*/
+
+#question
+{
+	font-family: Verdana, arial, serif;
+	font-size: 2em;
+	font-size-adjust: .58;
+	height: 100%;
+	width: 100%;
+	border: none;
+}
+
+/*.inf
+{
+	position:relative;
+}*/
+
+.sideLabel
+{
+	position: absolute;
+	top: 69px;
+	left: -100px;
+	height: 30px;
+	width: 150px;
+	transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg); /* IE 9 */
+	-webkit-transform: rotate(-90deg); /* Safari and Chrome */
+	-o-transform: rotate(-90deg); /* Opera */
+	-moz-transform: rotate(-90deg); /* Firefox */
+	background: #000;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	font: 12px Verdana, Geneva, sans-serif;
+	line-height: 30px;
+	color: #888;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border: none;
+	border-bottom: solid thin #888;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+.sidePaneInner {
+	height: 100%;
+	width: 100%;
+	color: #888;
+	padding: 10px 5px;
+//	border-bottom-left-radius: 8px;
+//	border-top-left-radius: 8px;
+	background: #000;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: left;
+	text-transform: uppercase;
+	font: 12px Verdana, Geneva, sans-serif;
+	border: none;
+}
+
+.sidePane {
+	position: fixed;
+	top: 0;	
+	bottom: 0;
+	right: -200px;
+	margin: auto;
+	height: 150px;
+	width: 200px;
+}
+
+/*.sidePane:hover {
+	right: 0px;	
+}*/
+
+/*#ans_bar
+{
+	background-color:#968A96;
+	position:fixed;
+	left:450px;
+	top:200px;
+	height:50px;
+	width:250px;
+	z-index: 20;
+}*/
+
+#slider
+{
+	height: 100%;
+	width: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 5px;
+	overflow: hidden;
+	background: #000;
+	background: rgba(0, 0, 0, 0.9);
+	color: #888;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.showStatus {
+	width: 904px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	position: absolute;
+	left: 110px;
+	bottom: 0;
+	background: #000;
+	background: rgba(0, 0, 0, 0.9);
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+}
+
+.showStatus:hover {
+	color: #FFF;
+}
+
+.pane {
+	cursor: pointer;
+	font-size: 30px;
+	line-height: 51px;
+	height: 51px;
+	font-family: 'Cabin Sketch', serif;
+}
+
+.pane:hover {
+	color: #FFF;
+}

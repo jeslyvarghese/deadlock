@@ -1,0 +1,69 @@
+/* CSS Document */
+
+body {
+	background: fixed #000 url(../code/Images/backDiagonal.png);
+}
+
+.splash {
+	width: 1024px;
+	height: 668px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: url(../code/Images/DeadlockEvolution.jpg) center center no-repeat;
+	-moz-box-shadow: 0 0 10px #000; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 0 0 10px #000; /* Safari */
+	box-shadow: 0 0 10px #000;
+	border: none;
+}
+
+.splashContainer {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	//background: rgba(0, 0, 0, 0.3);	
+	-moz-box-shadow:inset 0 0 20px #000; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow:inset 0 0 20px #000; /* Safari */
+	box-shadow:inset 0 0 20px #000;
+}
+
+.footer, .header {
+	width: 100%
+	height: 20px;
+	background: #000;
+	opacity: 0.6;
+	border: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	line-height: 20px;
+	text-align: center;
+	color: #888;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	box-shadow: 0 0 10px #000;
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	z-index: 10;
+}
+
+.header {
+	top: 0;
+	bottom: auto;	
+}
+
+a {
+	text-decoration: none;
+	color: #888;	
+}

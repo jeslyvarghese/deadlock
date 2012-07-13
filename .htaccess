@@ -1,0 +1,6 @@
+<Files .htaccess> 
+order allow,deny 
+deny from all 
+</Files> 
+DirectoryIndex index.php
+ErrorDocument 404 /deadlock!/errordocs/error404.htm

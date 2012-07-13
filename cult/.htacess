@@ -1,0 +1,4 @@
+<Files .htaccess,.sql,.zip>
+order allow,deny
+deny from all
+</Files>
